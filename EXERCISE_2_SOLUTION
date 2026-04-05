@@ -1,0 +1,17 @@
+# Exercise 2 solution (if else conditional statement)
+
+time = int(input("What time it is : "))
+
+if time < 12 :
+	print("--- GOOD MORNING ---".center(50))
+	
+elif time < 17 :
+	print("--- GOOD AFTERNOON ---".center(50))
+	
+elif time < 19 :
+	print("--- GOOD EVENING ---".center(50))
+	
+else :
+	print("--- GOOD NIGHT ---".center(50))	
+	
+											
